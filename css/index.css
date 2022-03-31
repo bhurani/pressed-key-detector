@@ -22,65 +22,65 @@ main {
 .box {
   background: white;
   flex-basis: 290px;
-	padding: 25px;
-	border-radius: 15px;
+  padding: 25px;
+  border-radius: 15px;
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
 }
 
 .box.active .text {
-	display: none;
+  display: none;
 }
 
 .box.active .content {
-	display: flex;
+  display: flex;
 }
 
 .text {
-	font-size: 30px;
-	text-align: center;
+  font-size: 30px;
+  text-align: center;
 }
 
 .text,
 .key-code,
 .key-name {
-	color: var(--blue);
-	font-weight: 500;
+  color: var(--blue);
+  font-weight: 500;
 }
 
 .content,
 .key-code,
 .details {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .content {
   flex-direction: column;
-	display: none;
+  display: none;
 }
 
 .key-code {
   border: 5px solid;
   width: 110px;
-	height: 110px;
-	border-radius: 50%;
+  height: 110px;
+  border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .key-code,
 .key-name {
-	font-size: 45px;
+  font-size: 45px;
   margin-bottom: 15px;
 }
 
 .details {
-	width: 100%;
+  width: 100%;
   justify-content: space-evenly;
 }
 
 .details p {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .bar {
